@@ -1,6 +1,6 @@
 # My Portfolio Site
-    [Live demo](https://dinasaid8.surge.sh)
-    
+    <a href="https://dinasaid8.surge.sh" target="_blank">Live Demo</a>
+
 ## Getting Started
 1-Clone repostiory
 
