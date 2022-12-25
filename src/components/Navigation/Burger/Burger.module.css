@@ -1,0 +1,26 @@
+.burger {
+  padding: 0.25rem 1.5rem;
+  background: transparent;
+  border: none;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.burger span {
+  display: block;
+  background-color: #be50f4;
+  height: 4px;
+  width: 29px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  transform: rotate(0deg);
+  left: 0;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: flex;
+  }
+}/*# sourceMappingURL=Burger.module.css.map */

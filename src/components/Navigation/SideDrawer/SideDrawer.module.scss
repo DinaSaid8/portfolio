@@ -1,0 +1,11 @@
+.sideDrawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 15%;
+  // background: var(--bg-layout-home);
+  // background-color: var(--bg-footer);
+  box-shadow: var(--drawer-shadow);
+}

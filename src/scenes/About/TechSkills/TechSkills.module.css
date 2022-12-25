@@ -1,0 +1,60 @@
+.container {
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.techIcon {
+  font-size: 4rem;
+  margin: 15px;
+  padding: 2rem 4rem;
+  opacity: 0.93;
+  border: 1.7px solid rgba(200, 137, 230, 0.637);
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 5px;
+  display: table;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+  overflow: hidden;
+  transition: all 0.5s ease-in-out 0.2s;
+  line-height: 0;
+}
+.techIcon .title {
+  font-size: 2rem;
+  padding: 2rem 0rem;
+  display: none;
+}
+.techIcon:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+  border: 2.2px solid rgba(197, 115, 230, 0.883);
+}
+.techIcon:hover .title {
+  -webkit-animation: fade 1s ease-in-out;
+          animation: fade 1s ease-in-out;
+  display: block;
+}
+.techIcon:hover .icon {
+  display: none;
+  transition-delay: 0.5s;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=TechSkills.module.css.map */

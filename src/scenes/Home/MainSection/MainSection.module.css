@@ -1,0 +1,122 @@
+@-webkit-keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.content {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--theme-color);
+  text-align: left;
+}
+
+.title {
+  padding-left: 0.2rem;
+  font-size: 2.4rem;
+}
+
+.wave {
+  -webkit-animation-name: wave;
+          animation-name: wave;
+  -webkit-animation-duration: 2.1s;
+          animation-duration: 2.1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  word-spacing: 0.3rem;
+}
+
+.mainName {
+  color: var(--txt-sec-darcker);
+  text-transform: uppercase;
+}
+
+.homeMainIcon {
+  display: flex !important;
+  width: 37%;
+  min-height: 25rem;
+  margin-top: 2rem;
+  padding: 0 15px;
+}
+.homeMainIcon > img {
+  min-width: 230px;
+  height: auto;
+}
+
+.typewriterWrapper {
+  font-size: 2.2em;
+  color: #be6adf;
+  font-weight: 600;
+}
+
+.typewriterCursor {
+  font-size: 2.4em;
+  color: #b562d6;
+}
+
+@media (max-width: 925px) {
+  .content {
+    padding: 9rem 3rem 1rem;
+    flex-wrap: wrap;
+  }
+  .homeMainIcon {
+    justify-content: center;
+    width: 60%;
+  }
+}/*# sourceMappingURL=MainSection.module.css.map */

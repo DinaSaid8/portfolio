@@ -1,0 +1,37 @@
+.header {
+  padding-top: 2em;
+  position: fixed;
+  z-index: 130;
+  background-attachment: scroll;
+  transition: all 0.3s ease-out 0s;
+  text-overflow: clip;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.highlighted {
+  background-color: var(--bg-footer);
+  outline: rgb(33, 37, 41) dashed 0;
+  box-shadow: rgba(9, 5, 29, 0.173) 0 10px 10px 0;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+@media (max-width: 768px) {
+  .header {
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  .container {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+}/*# sourceMappingURL=Header.module.css.map */
